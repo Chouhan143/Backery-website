@@ -336,7 +336,7 @@ padding: 20px 0px 50px;
 
                       <div className="col-md-6  parent_img">
                         {/* <div className="product-image" style={{background-image: url(/tabimg.jpg);background-size: cover;}}></div> */}
-                        <Image src="/tabimg.jpg " width="540" height="455" />
+                        <img src="/tabimg.jpg " width="540" height="455" />
                       </div>
 
                       <div className="text-content2 col-md-6 bg-Peach p-5">
@@ -359,7 +359,7 @@ padding: 20px 0px 50px;
                     <div className="row my-4">
 
                       <div className="col-md-6">
-                        <Image src="/tabimg1.jpg " width="540" height="455" />
+                        <img src="/tabimg1.jpg " width="540" height="455" />
                       </div>
 
                       <div className="text-content2 col-md-6 bg-Peach p-5">
@@ -380,7 +380,7 @@ padding: 20px 0px 50px;
                     <div className="row my-4">
 
                       <div className="col-md-6">
-                        <Image src="/tabimg.jpg " width="540" height="455" />
+                        <img src="/tabimg.jpg " width="540" height="455" />
                       </div>
 
                       <div className="text-content2 col-md-6 bg-Peach p-5">
