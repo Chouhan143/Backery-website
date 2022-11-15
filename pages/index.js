@@ -574,58 +574,58 @@ padding: 20px 0px 50px;
                 <div className="testimonials-inner carousel-inner">
                   <div className='carousel-item active'>
                     <div className="rating padding-small">
-                    <i class="fa-thin fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i> 
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
+                      <i class="fa-thin fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
                     </div>
                     <p className="animated zoomIn">“Bakery is ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.”</p>
                     <div className="testimonial-author">
                       <img src="/default.png" alt="jane" />
-                      <span className="name d-flex justify-content-center p-3 " style={{color:"white"}}>Jane Marie</span>
+                      <span className="name d-flex justify-content-center p-3 " style={{ color: "white" }}>Jane Marie</span>
                     </div>
                   </div>
 
 
                   <div className="testimonials-inner carousel-item">
                     <div className="rating padding-small">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i> 
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
                     </div>
                     <p className="animated zoomIn">This is absolute best product adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.”</p>
                     <div className="testimonial-author">
                       <img src="/default.png" alt="simran" />
-                      <span className="name d-flex justify-content-center p-3 " style={{color:"white"}}>Simran</span>
+                      <span className="name d-flex justify-content-center p-3 " style={{ color: "white" }}>Simran</span>
                     </div>
                   </div>
 
                   <div className="testimonials-inner carousel-item">
                     <div className="rating padding-small">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i> 
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
                     </div>
                     <p className="animated zoomIn">“I really love this product sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.”</p>
                     <div className="testimonial-author">
                       <img src="/default.png" alt="jane" />
-                      <span className="name d-flex justify-content-center p-3 " style={{color:"white"}} >John Marie</span>
+                      <span className="name d-flex justify-content-center p-3 " style={{ color: "white" }} >John Marie</span>
                     </div>
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Next</span>
+                </button>
 
               </div>
 
@@ -635,34 +635,35 @@ padding: 20px 0px 50px;
         </div>
       </section>
 
-     
+
       <section className="latest-blogs margin-medium">
-	<h2 className="section-title text-center mb-5">Latest Blogs</h2>
-	<div className="container">
-		<div className="row" d-flex >
-			<div className="col-md-6 left-post pl-0 mb-3">
-			      <img src='postImg1.jpg' alt="postimg"/>
+        <h2 className="section-title text-center mb-5">Latest Blogs</h2>
+        <div className="container">
+          <div className="row" d-flex >
+            <div className="col-md-6 left-post pl-0 mb-3">
+              <img src='postImg1.jpg' width="100%" alt="postimg" />
 
-			</div>
+            </div>
 
-      <div className="col-md-6 right-post pl-0 mb-3">
-      <div className='row'>
-        <div className='col-md-6'>
-        <img src='postImg1.jpg' width="150px" height="auto" alt="postimg"/>
+            <div className="col-md-6 right-post  text-center">
+              <div className='row'>
+                <div className=''>
+                  <img src='postitem1.jpg' className='img-fluid'  alt="postimg" />
+                  </div>
+                  <div className=''>
+                  <img src='postitem1.jpg' className='img-fluid'  alt="postimg" />
+                  </div>
+              
+              </div>
+
+            </div>
+          </div>
         </div>
-        <div className='col-md-6'>
-        <img src='postImg1.jpg' width="150px" height="auto" alt="postimg"/>
+
+        <div className="pix_btn text-center">
+          <a href="#" className="btn-hvr-effects mt-5">read more</a>
         </div>
-      </div>
-
-      </div>
-		</div>
-	</div>
-
-	<div className="pix_btn text-center">
-		<a href="#" className="btn-hvr-effects mt-5">read more</a>
-	</div>
-</section>
+      </section>
 
 
 
