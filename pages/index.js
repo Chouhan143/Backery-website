@@ -282,7 +282,7 @@ padding: 20px 0px 50px;
   background-color:#ce3c83;
   color:white;
   padding:5px 10px;
-  border-radius:5px;
+  border-radius:4px;
 }
 
 
