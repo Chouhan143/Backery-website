@@ -260,6 +260,57 @@ padding: 20px 0px 50px;
 
 }
 
+
+
+.latest-blogs .post-content{
+  position: relative;
+}
+.post-content:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width:100%
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 3;
+}
+
+.content span{
+  background-color:#ce3c83;
+  color:white;
+  padding:5px 10px;
+  border-radius:5px;
+}
+
+
+.latest-blogs .content{
+  position: absolute;
+  bottom: 0;
+  padding: 2em;
+  z-index: 3;
+}
+.content h3>a{
+  color: #fff;
+  text-transform: none;
+  background:black;
+  background:rgba(0,0,0,0.8);
+  border-radius:5px;
+  padding:5px 10px; 
+}
+
+@media screen and (max-width: 575px){
+.latest-blogs .content h3 {
+    font-size: 1.5rem;
+}
+}
+
+
+
+
+
     `}
       </style>
 
@@ -635,27 +686,38 @@ padding: 20px 0px 50px;
         </div>
       </section>
 
-     
       <section className="latest-blogs margin-medium">
 	<h2 className="section-title text-center mb-5">Latest Blogs</h2>
 	<div className="container">
-		<div className="row" d-flex >
+		<div className="row  gx-5">
 			<div className="col-md-6 left-post pl-0 mb-3">
-			      <img src='postImg1.jpg' alt="postimg"/>
-
+				<div className="post-content">
+				<a href="single-post.html"><img src="/postImg1.jpg" alt="cake" className="largeImg"/></a>
+        <div className='overlay_div'></div>
+				<div className="content light">
+					<span className="highlight text-weight-bold">March 10, 2020</span>
+					<h3 className="mt-3"><a href="single-post.html">How to Make a Cake with Great Delicious Chocolate</a></h3>
+				</div>
+				</div>
 			</div>
 
-      <div className="col-md-6 right-post pl-0 mb-3">
-      <div className='row'>
-        <div className='col-md-6'>
-        <img src='postImg1.jpg' width="150px" height="auto" alt="postimg"/>
-        </div>
-        <div className='col-md-6'>
-        <img src='postImg1.jpg' width="150px" height="auto" alt="postimg"/>
-        </div>
-      </div>
+			<div className="col-md-6 right-post pl-0">
+				<div className="post-content mb-3">
+					<a href="single-post.html"><img src="/postLong.jpg" alt="cake" className="horizontalImg"/></a>
+					<div className="content light">
+						<span className="highlight">March 10, 2020</span>
+						<h3 className="mt-3"><a href="single-post.html">How to Make a Cake with Great Delicious Chocolate</a></h3>
+					</div>
+				</div>
 
-      </div>
+				<div className="post-content">
+					<a href="single-post.html"><img src="/postLong.jpg" alt="cake" className="horizontalImg"/></a>
+					<div className="content light">
+						<span className="highlight">March 10, 2020</span>
+						<h3 className="mt-3"><a href="single-post.html">How to Make a Cake with Great Delicious Chocolate</a></h3>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -663,8 +725,6 @@ padding: 20px 0px 50px;
 		<a href="#" className="btn-hvr-effects mt-5">read more</a>
 	</div>
 </section>
-
-
 
 
 
