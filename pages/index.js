@@ -301,6 +301,19 @@ padding: 20px 0px 50px;
   padding:5px 10px; 
 }
 
+
+.pix_btnproduct{
+  margin-top:0.5rem;
+      padding: 0.7em 1em;
+      display: inline-block;
+      background: #ce3c83;
+      border-radius: 10px;
+      border-color: transparent;
+      
+}
+
+
+
 @media screen and (max-width: 575px){
 .latest-blogs .content h3 {
     font-size: 1.5rem;
@@ -309,6 +322,14 @@ padding: 20px 0px 50px;
 
 
 
+
+
+.association-with{
+  background-color:#38251F;
+}
+.ultarget li{
+  margin: 15px 10px;
+}
 
 
     `}
@@ -718,11 +739,31 @@ padding: 20px 0px 50px;
 					</div>
 				</div>
 			</div>
-		</div>
+      </div>
+    <div className='center_btn text-center'>
+    <div className="pix_btnproduct ">
+		<a href="#" className="btn-hvr-effects mt-5">read more</a>
+	</div>
+  </div>
+
 	</div>
 
-	<div className="pix_btn text-center">
-		<a href="#" className="btn-hvr-effects mt-5">read more</a>
+
+</section>
+
+<section className="association-with bg-prim padding-small mt-5">
+	<div className="container">
+		<div className="row">
+			<div className="col-md-12 text-center">
+				<ul className="d-flex list-unstyled justify-content-between flex-wrap mt-5 ultarget">
+					<li><a href="#"><img src="/baker.svg" className="brandImg"/></a></li>
+					<li><a href="#"><img src="/bakery.svg" className="brandImg"/></a></li>
+					<li><a href="#"><img src="/thebakery.svg" className="brandImg"/></a></li>
+					<li><a href="#"><img src="/breadcookies.svg" className="brandImg"/></a></li>
+					<li><a href="#"><img src="/bakery.svg" className="brandImg"/></a></li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </section>
 
