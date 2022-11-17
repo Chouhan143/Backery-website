@@ -408,7 +408,7 @@ padding: 20px 0px 50px;
 
                       <div className="col-md-6  parent_img">
                         {/* <div className="product-image" style={{background-image: url(/tabimg.jpg);background-size: cover;}}></div> */}
-                        <Image src="/tabimg.jpg " width="540" height="455" />
+                        <img src="/tabimg.jpg " width="540" height="455" />
                       </div>
 
                       <div className="text-content2 col-md-6 bg-Peach p-5">
@@ -431,7 +431,7 @@ padding: 20px 0px 50px;
                     <div className="row my-4">
 
                       <div className="col-md-6">
-                        <Image src="/tabimg1.jpg " width="540" height="455" />
+                        <img src="/tabimg1.jpg " width="540" height="455" />
                       </div>
 
                       <div className="text-content2 col-md-6 bg-Peach p-5">
@@ -452,7 +452,7 @@ padding: 20px 0px 50px;
                     <div className="row my-4">
 
                       <div className="col-md-6">
-                        <Image src="/tabimg.jpg " width="540" height="455" />
+                        <img src="/tabimg.jpg " width="540" height="455" />
                       </div>
 
                       <div className="text-content2 col-md-6 bg-Peach p-5">
@@ -646,58 +646,58 @@ padding: 20px 0px 50px;
                 <div className="testimonials-inner carousel-inner">
                   <div className='carousel-item active'>
                     <div className="rating padding-small">
-                    <i class="fa-thin fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i> 
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
+                      <i class="fa-thin fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
                     </div>
                     <p className="animated zoomIn">“Bakery is ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.”</p>
                     <div className="testimonial-author">
                       <img src="/default.png" alt="jane" />
-                      <span className="name d-flex justify-content-center p-3 " style={{color:"white"}}>Jane Marie</span>
+                      <span className="name d-flex justify-content-center p-3 " style={{ color: "white" }}>Jane Marie</span>
                     </div>
                   </div>
 
 
                   <div className="testimonials-inner carousel-item">
                     <div className="rating padding-small">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i> 
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
                     </div>
                     <p className="animated zoomIn">This is absolute best product adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.”</p>
                     <div className="testimonial-author">
                       <img src="/default.png" alt="simran" />
-                      <span className="name d-flex justify-content-center p-3 " style={{color:"white"}}>Simran</span>
+                      <span className="name d-flex justify-content-center p-3 " style={{ color: "white" }}>Simran</span>
                     </div>
                   </div>
 
                   <div className="testimonials-inner carousel-item">
                     <div className="rating padding-small">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i> 
-                   <i class="fa-solid fa-star"></i>
-                   <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
                     </div>
                     <p className="animated zoomIn">“I really love this product sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.”</p>
                     <div className="testimonial-author">
                       <img src="/default.png" alt="jane" />
-                      <span className="name d-flex justify-content-center p-3 " style={{color:"white"}} >John Marie</span>
+                      <span className="name d-flex justify-content-center p-3 " style={{ color: "white" }} >John Marie</span>
                     </div>
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Next</span>
+                </button>
 
               </div>
 
@@ -706,6 +706,7 @@ padding: 20px 0px 50px;
           </div>
         </div>
       </section>
+
 
       <section className="latest-blogs margin-medium">
 	<h2 className="section-title text-center mb-5">Latest Blogs</h2>
@@ -747,6 +748,37 @@ padding: 20px 0px 50px;
   </div>
 
 	</div>
+
+
+      <section className="latest-blogs margin-medium">
+        <h2 className="section-title text-center mb-5">Latest Blogs</h2>
+        <div className="container">
+          <div className="row" d-flex >
+            <div className="col-md-6 left-post pl-0 mb-3">
+              <img src='postImg1.jpg' width="100%" alt="postimg" />
+
+            </div>
+
+            <div className="col-md-6 right-post  text-center">
+              <div className='row'>
+                <div className=''>
+                  <img src='postitem1.jpg' className='img-fluid'  alt="postimg" />
+                  </div>
+                  <div className=''>
+                  <img src='postitem1.jpg' className='img-fluid'  alt="postimg" />
+                  </div>
+              
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div className="pix_btn text-center">
+          <a href="#" className="btn-hvr-effects mt-5">read more</a>
+        </div>
+      </section>
+
 
 
 </section>
