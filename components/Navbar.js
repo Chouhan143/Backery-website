@@ -9,7 +9,7 @@ const Navbar = () => {
 
   <header className="header">
         <div className="container">
-          <div className="row d-flex">
+          <div className="row">
             <nav className="navbar navbar-expand-lg col-md-12">
 
               <Image src='/main-logo.png' alt="logo" width={132}

@@ -709,69 +709,61 @@ padding: 20px 0px 50px;
 
 
       <section className="latest-blogs margin-medium">
-	<h2 className="section-title text-center mb-5">Latest Blogs</h2>
-	<div className="container">
-		<div className="row  gx-5">
-			<div className="col-md-6 left-post pl-0 mb-3">
-				<div className="post-content">
-				<a href="single-post.html"><img src="/postImg1.jpg" alt="cake" className="largeImg"/></a>
-        <div className='overlay_div'></div>
-				<div className="content light">
-					<span className="highlight text-weight-bold">March 10, 2020</span>
-					<h3 className="mt-3"><a href="single-post.html">How to Make a Cake with Great Delicious Chocolate</a></h3>
-				</div>
-				</div>
-			</div>
+        <h2 className="section-title text-center mb-5">Latest Blogs</h2>
+        <div className="container">
+          <div className="row  gx-5">
+            <div className="col-md-6 left-post pl-0 mb-3">
+              <div className="post-content">
+                <a href="single-post.html"><img src="/postImg1.jpg" alt="cake" className="largeImg" /></a>
+                <div className='overlay_div'></div>
+                <div className="content light">
+                  <span className="highlight text-weight-bold">March 10, 2020</span>
+                  <h3 className="mt-3"><a href="single-post.html">How to Make a Cake with Great Delicious Chocolate</a></h3>
+                </div>
+              </div>
+            </div>
 
-			<div className="col-md-6 right-post pl-0">
-				<div className="post-content mb-3">
-					<a href="single-post.html"><img src="/postLong.jpg" alt="cake" className="horizontalImg"/></a>
-					<div className="content light">
-						<span className="highlight">March 10, 2020</span>
-						<h3 className="mt-3"><a href="single-post.html">How to Make a Cake with Great Delicious Chocolate</a></h3>
-					</div>
-				</div>
+            <div className="col-md-6 right-post pl-0">
+              <div className="post-content mb-3">
+                <a href="single-post.html"><img src="/postLong.jpg" alt="cake" className="horizontalImg" /></a>
+                <div className="content light">
+                  <span className="highlight">March 10, 2020</span>
+                  <h3 className="mt-3"><a href="single-post.html">How to Make a Cake with Great Delicious Chocolate</a></h3>
+                </div>
+              </div>
 
-				<div className="post-content">
-					<a href="single-post.html"><img src="/postLong.jpg" alt="cake" className="horizontalImg"/></a>
-					<div className="content light">
-						<span className="highlight">March 10, 2020</span>
-						<h3 className="mt-3"><a href="single-post.html">How to Make a Cake with Great Delicious Chocolate</a></h3>
-					</div>
-				</div>
-			</div>
-      </div>
-    <div className='center_btn text-center'>
-    <div className="pix_btnproduct ">
-		<a href="#" className="btn-hvr-effects mt-5">read more</a>
-	</div>
-  </div>
+              <div className="post-content">
+                <a href="single-post.html"><img src="/postLong.jpg" alt="cake" className="horizontalImg" /></a>
+                <div className="content light">
+                  <span className="highlight">March 10, 2020</span>
+                  <h3 className="mt-3"><a href="single-post.html">How to Make a Cake with Great Delicious Chocolate</a></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='center_btn text-center'>
+            <div className="pix_btnproduct ">
+              <a href="#" className="btn-hvr-effects mt-5">read more</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-	</div>
-
-
-     
-</section>
-
-<section className="association-with bg-prim padding-small mt-5">
-	<div className="container">
-		<div className="row">
-			<div className="col-md-12 text-center">
-				<ul className="d-flex list-unstyled justify-content-between flex-wrap mt-5 ultarget">
-					<li><a href="#"><img src="/baker.svg" className="brandImg"/></a></li>
-					<li><a href="#"><img src="/bakery.svg" className="brandImg"/></a></li>
-					<li><a href="#"><img src="/thebakery.svg" className="brandImg"/></a></li>
-					<li><a href="#"><img src="/breadcookies.svg" className="brandImg"/></a></li>
-					<li><a href="#"><img src="/bakery.svg" className="brandImg"/></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</section>
-
-
-
-
+      <section className="association-with bg-prim padding-small mt-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <ul className="d-flex list-unstyled justify-content-between flex-wrap mt-5 ultarget">
+                <li><a href="#"><img src="/baker.svg" className="brandImg" /></a></li>
+                <li><a href="#"><img src="/bakery.svg" className="brandImg" /></a></li>
+                <li><a href="#"><img src="/thebakery.svg" className="brandImg" /></a></li>
+                <li><a href="#"><img src="/breadcookies.svg" className="brandImg" /></a></li>
+                <li><a href="#"><img src="/bakery.svg" className="brandImg" /></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
     </>
