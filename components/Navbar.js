@@ -33,7 +33,7 @@ const Navbar = () => {
                     <a className={styles.navlink}>Blog</a> 
                   </Link>
 
-                  <Link legacyBehavior className="nav-item" href="/About">
+                  <Link legacyBehavior className="nav-item" href="/Contact">
                      <a className={styles.navlink}>Contact Us</a>
                    </Link>
                    

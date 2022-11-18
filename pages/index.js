@@ -347,7 +347,7 @@ padding: 20px 0px 50px;
                 <p>A gorgeous selection of our favorites for a client to send as a new year’s gift.A gorgeous selection of our favorites for a client to send as a new year’s gift</p>
                 <div className="pix_btn">
                   <a href="#" className="btn-hvr-effects mt-3">Shop Now</a>
-                </div>
+                </div>        
               </div>
             </div>
             <div className="carousel-item">
