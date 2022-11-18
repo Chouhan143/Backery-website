@@ -750,37 +750,7 @@ padding: 20px 0px 50px;
 	</div>
 
 
-      <section className="latest-blogs margin-medium">
-        <h2 className="section-title text-center mb-5">Latest Blogs</h2>
-        <div className="container">
-          <div className="row" d-flex >
-            <div className="col-md-6 left-post pl-0 mb-3">
-              <img src='postImg1.jpg' width="100%" alt="postimg" />
-
-            </div>
-
-            <div className="col-md-6 right-post  text-center">
-              <div className='row'>
-                <div className=''>
-                  <img src='postitem1.jpg' className='img-fluid'  alt="postimg" />
-                  </div>
-                  <div className=''>
-                  <img src='postitem1.jpg' className='img-fluid'  alt="postimg" />
-                  </div>
-              
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div className="pix_btn text-center">
-          <a href="#" className="btn-hvr-effects mt-5">read more</a>
-        </div>
-      </section>
-
-
-
+     
 </section>
 
 <section className="association-with bg-prim padding-small mt-5">
