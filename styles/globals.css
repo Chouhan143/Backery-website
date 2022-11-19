@@ -143,6 +143,63 @@ border-top-right-radius: none!important;
 }
 }
 
-/* -- latest-blogs Section
---------------------------------------------------------------*/
+/* -- latest-blogs Section  -------------------------------------------------------------*/
 
+
+
+/* ------------------------  About Section styling -------------------------------------------------------------*/
+
+
+
+
+.site-banner{
+  background: url(/banner.jpg) no-repeat;
+  height:567px;
+}
+.site-banner .banner-content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: inherit;
+  text-align: center;
+}
+.colored{
+  color:#ce3c83;
+  
+}
+.item_colored{
+  color:#ef81b6;
+  font-weight:700;
+}
+
+
+.breadcum-items a{
+  color:black !important;
+  text-decoration:none !important;  
+  font-weight:700;                                                
+}
+.breadcum-items a:hover{
+  color:#ef81b6 !important;
+}
+
+.about_content{
+  text-align: center;
+    align-self: center;
+    flex-wrap: nowrap;
+}
+
+.teamcontainer{
+margin-top:30px;
+}
+
+.our-team h2{
+  margin: 30px;
+  padding-top: 80px;
+  font-weight: 700;
+}
+.member-details h4{
+  padding: 10px 0px;
+}
+.designation{
+  padding-bottom: 10px;
+}
