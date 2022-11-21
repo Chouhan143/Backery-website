@@ -5,8 +5,8 @@ import React from 'react'
 const Blog = () => {
   return (
     <>
-<style jsx>
-{`
+      <style jsx>
+        {`
 
 .site-banner{
   background: url(/banner.jpg) no-repeat;
@@ -41,28 +41,53 @@ const Blog = () => {
 
 
 `}
-</style>
+      </style>
 
-  <div className="site-banner">
-	<div className="banner-content">
-		<div className="container">
-			<div className="row">
-				<div className="col-md-12">			
-					<div className="colored">
-						<h1>Blogs</h1>
-						<div className="breadcum-items">
-						    <Link href='/' > <a> Home / </a> </Link> 
-							<span className="item_colored">Blogs</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-  
-  
-  </>
+      <div className="site-banner">
+        <div className="banner-content">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="colored">
+                  <h1>Blogs</h1>
+                  <div className="breadcum-items">
+                    <Link href='/' > <a> Home / </a> </Link>
+                    <span className="item_colored">Blogs</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section className='card_dataSection'>
+        <div className='container'>
+          <div className='row'>
+          <div className='cards'>
+            <div className='card'>
+              <img src='' alt='' className='card_img' />
+              <div className='card_info'>
+                <span></span>
+                <h3 className='card_title'>How to Make a Cake with Great Delicious Chocolate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eisusmod tempor incidunt ut elit et.</p>
+                <a href='' target="blank"><button> Read More</button></a>
+              </div>
+
+            </div>
+
+          </div>
+          </div>
+        </div>
+
+
+
+
+
+      </section>
+
+
+    </>
   )
 }
 

@@ -153,7 +153,7 @@ const About = () => {
 	<div className="container">
 			<h2 className="section-title text-center mb-5">Our Best Moments</h2>
 
-		<div className="row">
+		<div className="row pb-5">
 
 			<div className="achivement-block text-center col-md-4">
 				<img src="/badge.png" alt="badge"/>
