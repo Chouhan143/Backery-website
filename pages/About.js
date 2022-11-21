@@ -3,6 +3,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const About = () => {
+
+
+
+
+
 	return (
 		<>
 
@@ -25,7 +30,7 @@ const About = () => {
 			</div>
 
 
-<section className='hero_about mt-5'>
+			<section className='hero_about mt-5'>
 				<div className='container '>
 					<div className='row d-flex'>
 						<div className="single-image col-md-6">
@@ -38,9 +43,9 @@ const About = () => {
 					</div>
 				</div>
 			</section>
-	{/* ---------------------hero section end --------------  */}
+			{/* ---------------------hero section end --------------  */}
 
-	<section className="our-team bg-sand padding-large mt-5" style={{ background: "#f5f5f5", }}>
+			<section className="our-team bg-sand padding-large mt-5" style={{ background: "#f5f5f5" }}>
 				<h2 className="section-title text-center ">Our Team</h2>
 				<div className="container teamcontainer">
 					<div className="row">
@@ -124,9 +129,60 @@ const About = () => {
 
 
 
+			<section className="our-target">
+				<h2 className="section-title text-center ">Our Target</h2>
+				<div className="container targetcontainer">
+					<div className="row">
+						<figure>
+							<img src='flower-bg.jpg' className='target_img w-100 h-auto pt-5' />
+						</figure>
+						<div className='target_content'>
+							<a><h3 className='target_heading'>Providing Quality Products For All to be happy and peace</h3></a>
+							<p className='pt-5 target_para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste.</p>
+						
+							<a><h3 className='target_heading border_style'>Providing Quality Products For All to be happy and peace</h3></a>
+							<a><h3 className='target_heading pb-5'>Providing Quality Products For All to be happy and peace</h3></a>
+						
+						</div>
 
+					</div>
+				</div>
+			</section>
 
+			<section className="our-achivement bg-sand padding-large pt-5"  style={{ background: "#f5f5f5" }}>
+	<div className="container">
+			<h2 className="section-title text-center mb-5">Our Best Moments</h2>
 
+		<div className="row">
+
+			<div className="achivement-block text-center col-md-4">
+				<img src="/badge.png" alt="badge"/>
+				<div className="mt-3">
+					<h3>Bakery of the Month</h3>
+					<span className="date">2018 - 2020</span>
+					<p>Bakery is a free HTML CSS Template by Templates Jungle specially crafted for Bakeries.</p>
+				</div>
+			</div>
+			<div className="achivement-block text-center col-md-4">
+				<img src="/badge1.png" alt="badge"/>
+				<div className="mt-3">
+					<h3>Bakery of the Month</h3>
+					<span className="date">2018 - 2020</span>
+					<p>Bakery is a free HTML CSS Template by Templates Jungle specially crafted for Bakeries.</p>
+				</div>
+			</div>
+			<div className="achivement-block text-center col-md-4">
+				<img src="/badge2.png" alt="badge"/>
+				<div className="mt-3">
+					<h3>Bakery of the Month</h3>
+					<span className="date">2018 - 2020</span>
+					<p>Bakery is a free HTML CSS Template by Templates Jungle specially crafted for Bakeries.</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
 
 
 		</>

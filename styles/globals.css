@@ -203,3 +203,41 @@ margin-top:30px;
 .designation{
   padding-bottom: 10px;
 }
+
+.social-links{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.social-links a{
+color:black !important;
+}
+
+.social-links a:hover{
+  color:gray !important;
+  }
+
+
+  .our-target{
+    padding-top: 50px;
+  }
+  .target_img{
+    padding-bottom: 50px;
+  }
+
+  .target_para,
+  .border_style{
+    padding-bottom: 60px;
+    border-bottom: 1px solid gray;
+  }
+
+  .target_heading{
+    padding-top: 30px;
+  }
+  .target_heading:hover{
+    color:#ce3c83;
+    
+    cursor:pointer;
+  }
