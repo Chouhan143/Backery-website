@@ -1,6 +1,8 @@
 
 import Link from 'next/link'
 import React from 'react'
+import Blogcart from '../components/Blogcart';
+import Sdata from '../components/Sdata';
 
 const Blog = () => {
   return (
@@ -38,6 +40,10 @@ const Blog = () => {
   color:#ef81b6 !important;
 }
 
+.cart_section{
+  border-bottom:1px solid #999592;
+  padding-bottom:60px;
+}
 
 
 `}
@@ -60,31 +66,59 @@ const Blog = () => {
           </div>
         </div>
       </div>
-
-      <section className='card_dataSection'>
+{/* cart section start here */}
+      <section className='cart_section'>
         <div className='container'>
-          <div className='row'>
-          <div className='cards'>
-            <div className='card'>
-              <img src='' alt='' className='card_img' />
-              <div className='card_info'>
-                <span></span>
-                <h3 className='card_title'>How to Make a Cake with Great Delicious Chocolate</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eisusmod tempor incidunt ut elit et.</p>
-                <a href='' target="blank"><button> Read More</button></a>
-              </div>
+          <div className='row my-5'>
+            <div className='col-md-4'>
+              <Blogcart image={Sdata[0].image}
+                title={Sdata[0].title}
+                para={Sdata[0].para}
+                link={Sdata[0].link} />
+            </div>
 
+            <div className='col-md-4'>
+              <Blogcart image={Sdata[1].image}
+                title={Sdata[1].title}
+                para={Sdata[1].para}
+                link={Sdata[1].link} />
+            </div>
+
+            <div className='col-md-4'>
+              <Blogcart image={Sdata[2].image}
+                title={Sdata[2].title}
+                para={Sdata[2].para}
+                link={Sdata[2].link} />
+            </div>
+            </div>
+            <div className='row my-4 gy-2'>
+            <div className='col-md-4' >
+              <Blogcart image={Sdata[3].image}
+                title={Sdata[3].title}
+                para={Sdata[3].para}
+                link={Sdata[3].link} />
+            </div>
+
+            <div className='col-md-4'>
+              <Blogcart image={Sdata[4].image}
+                title={Sdata[4].title}
+                para={Sdata[4].para}
+                link={Sdata[4].link} />
+            </div>
+
+
+            <div className='col-md-4'>
+              <Blogcart image={Sdata[5].image}
+                title={Sdata[5].title}
+                para={Sdata[5].para}
+                link={Sdata[5].link} />
             </div>
 
           </div>
-          </div>
         </div>
-
-
-
-
-
       </section>
+{/* cart section end */}
+
 
 
     </>
